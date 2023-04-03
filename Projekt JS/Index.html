@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styl.css" type="text/css" />
+   <script src="projekt.js"></script>
+</head>
+<body>
+    <div id="centrovac">
+        <article><header>
+            <h1>Přenos tepla</h1>
+        </header>
+        <section><h2>Tato stránka vám pomůže vypočítat přenos tepla stačí dosadit jednotky do správných kolonek. <br>
+        Může vám i zkontrolovat váš výsledek.</h2></section>
+    <h3>Plocha:<input type="number" id="plocha">m²<br>
+    Rozdíl teplot:<input type="number" id="teplota">°C<br>
+    Čas:<input type="number" id="čas">s<br>
+    Tloušťka:<input type="number" id="tloušťka">m<br>
+    Součinitel tepelné vodivosti:<input type="number" id="vodivost">W/K*m<br>
+    <button onclick="count()">vypočítat</button><br>
+    Přenesené teplo (Q): <span id="vysledek"></span> J<br><br>
+    
+    Přenesené teplo (Q): <input type="number" id="přenos">J<br>
+
+    <button onclick="check()">Zkontroluj</button><br>
+
+<span id="vysledek_kontroly"></span>
+<br>
+<a href="index2.html">Help</a>
+</h3></div></article>
+</body>
+</html>

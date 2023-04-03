@@ -1,0 +1,62 @@
+@font-face {
+    font-family: Poppins;
+    src: url(fonty/Poppins-Regular.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url(fonty/Poppins-ExtraBold.ttf);
+    font-weight: bold;
+}
+
+body {
+    font: 14px "Poppins";
+    color: #414042;
+    background: #aca9a9;
+}
+
+article h1,
+article h2,
+article h3,
+article h4,
+article h5,
+article h6 {
+    color: #d61212b2;
+    width: max-content;
+}
+
+article h1 {
+    font-size: 3em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+article h2 {
+    font-size: 1,5em;
+}
+
+article header {
+    height: 100px;
+}
+
+article section p {
+    line-height: 1.8em;
+}
+
+article section a {
+    color: #3460ef;
+}
+
+img {
+    width: 300px;
+}
+
+.centrovany {
+    text-align: center;
+}
+
+#centrovac {
+    margin: 0 auto;
+    max-width: 960px;
+}
